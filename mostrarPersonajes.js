@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const main = document.querySelector("main"); // El elemento main, contenedor de los principales datos
-    const carpetaPersonajes = "/assets/images/personajes/"; // Ubicación de las imágenes de los personajes
+    const carpetaPersonajes = "./assets/images/personajes/"; // Ubicación de las imágenes de los personajes
     const thisSeason = document.URL.split("/").at(-1).split(".").at(0).at(-1); // La temporada actual
     let personajes = []; // Inicializamos los personajes
     let videoActual; // Inicializamos el video que se superpone al resto de elementos
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function cargarDatos() {
         try {
-            const response = await fetch("/assets/json/personajes.json");
+            const response = await fetch("./assets/json/personajes.json");
             if (!response.ok) {
                 throw new Error(`Error en la petición: ${response.status} ${response.statusText}`);
             }
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Icono del boton cerrar
         const iconoCerrarPlantilla = document.createElement("img");
         iconoCerrarPlantilla.style.height = "35px";
-        iconoCerrarPlantilla.setAttribute("src", "/assets/icons/x-lg.svg");
+        iconoCerrarPlantilla.setAttribute("src", "./assets/icons/x-lg.svg");
         botonCerrarPlantilla.append(iconoCerrarPlantilla);
         return botonCerrarPlantilla;
     }
