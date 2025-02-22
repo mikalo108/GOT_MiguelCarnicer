@@ -33,24 +33,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function crearBotonVerMuertos(){
+        // Div para boton
+        const divVerMuertos = document.createElement("div");
+        divVerMuertos.style.gridColumn="1/5";
+        divVerMuertos.style.display="flex";
+        divVerMuertos.style.justifyContent="space-between";
+        divVerMuertos.style.alignItems="center";
+        divVerMuertos.style.marginBlock="25px";
+
         // Texto que acompaña e informa sobre la funcionalidad del botón
         const tituloBotonMuertos = document.createElement("p");
         tituloBotonMuertos.textContent = "Ver solo personajes que mueren esta temporada: ";
-        tituloBotonMuertos.style.gridColumn = "1/4";
-        tituloBotonMuertos.style.alignSelf = "center";
-        tituloBotonMuertos.style.marginTop = "15px";
-        tituloBotonMuertos.style.justifySelf = "right";
-        tituloBotonMuertos.style.position = "relative";
-        tituloBotonMuertos.style.left = "40%";
-        tituloBotonMuertos.style.width = "160%";
+        tituloBotonMuertos.style.margin = "0";
         tituloBotonMuertos.id = "tituloBotonMuertos";
 
         // Switch que al activarse se muestran solo los personajes que mueren esta temporada
         const labelVerSoloMuertos = document.createElement("label");
         labelVerSoloMuertos.classList.add("switch");
-        labelVerSoloMuertos.style.gridColumn = "4/5";
-        labelVerSoloMuertos.style.justifySelf = "right";
-        labelVerSoloMuertos.style.marginBlock = "25px";
 
         const botonVerSoloMuertos = document.createElement("input");
         botonVerSoloMuertos.setAttribute("type", "checkbox");
@@ -59,7 +58,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const span = document.createElement("span");
         span.classList.add("slider", "round");
         labelVerSoloMuertos.append(botonVerSoloMuertos, span);
-        main.append(tituloBotonMuertos, labelVerSoloMuertos);
+        divVerMuertos.append(tituloBotonMuertos, labelVerSoloMuertos);
+        main.append(divVerMuertos);
     }
     function crearPlantillaCard() {
         const cardPlantila=document.createElement("div");
