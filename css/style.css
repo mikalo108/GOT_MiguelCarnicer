@@ -132,6 +132,7 @@ img{
     display: inline-block;
     width: 60px;
     height: 34px;
+    min-width: 60px;
 }
 
 .switch input {
@@ -150,7 +151,6 @@ img{
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-    min-width: 60px;
 }
 
 .slider:before {
