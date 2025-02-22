@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Ned Stark",
+        "image": "ned_stark.webp",
+        "muerte": "https://geo.dailymotion.com/player.html?video=x8x2g4s",
+        "deadSeason": "1"
+    },
+    {
+        "name": "Catelyn Stark (Kate)",
+        "image": "cat_stark.webp",
+        "muerte": "https://www.youtube.com/embed/uL5uk9KG29U?si=yQEcnm7hNVrqrdDQ",
+        "deadSeason": "3"
+    },
+    {
+        "name": "Sansa Stark",
+        "image": "sansa_stark.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Bran Stark",
+        "image": "bran_stark.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Robb Stark",
+        "image": "rob_stark.webp",
+        "muerte": "https://www.youtube.com/embed/uL5uk9KG29U?si=yQEcnm7hNVrqrdDQ",
+        "deadSeason": "3"
+    },
+    {
+        "name": "Arya Stark",
+        "image": "arya_stark.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Jon Nieve",
+        "image": "jon_snow.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Rickon Stark",
+        "image": "rickon_stark.webp",
+        "muerte": "https://www.youtube.com/embed/QY7Sh-O8lJ4?si=6PXgoqmPfex2_y_p",
+        "deadSeason": "6"
+    },
+    {
+        "name": "Khal Drogo",
+        "image": "khal_drogo.webp",
+        "muerte": "https://www.youtube.com/embed/YqLnu-E08XM?si=rlf0heGz5cZA-HK1",
+        "deadSeason": "1"
+    },
+    {
+        "name": "Gusano Gris",
+        "image": "gusano_gris.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Missandei",
+        "image": "missandri.webp",
+        "muerte": "https://www.youtube.com/embed/mJTVFBBjGIA?si=LThasYiYnC-7jEmu",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Jorah Mormont",
+        "image": "jorah_mormont.webp",
+        "muerte": "https://www.youtube.com/embed/GpUWdnJA-Qw?si=dJ2iLO1hZClTe3eF",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Daenerys Targaryen",
+        "image": "daenerys_targaryen.webp",
+        "muerte": "https://www.youtube.com/embed/4PnQOK19pRw?si=jgQ__G9B6BcUNJlZ",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Viserys Targaryen",
+        "image": "viserys_targaryen.webp",
+        "muerte": "https://www.youtube.com/embed/jRKQWah4svk?si=FS03s9yAgvxW-PQK",
+        "deadSeason": "1"
+    },
+    {
+        "name": "Tyrion Lannister",
+        "image": "tyrion_lannister.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Cersei Lannister",
+        "image": "cercei_lannister.webp",
+        "muerte": "https://www.youtube.com/embed/Gg5pjKtkcnU?si=4v1CnzU4xYM7Ti_g",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Jaime Lannister",
+        "image": "jamie_lannister.webp",
+        "muerte": "https://www.youtube.com/embed/Gg5pjKtkcnU?si=4v1CnzU4xYM7Ti_g",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Tywin Lannister",
+        "image": "tywin_lannister.webp",
+        "muerte": "https://www.youtube.com/embed/otKLaeihOQ8?si=k1hB9wjb5Y9D2GR4",
+        "deadSeason": "4"
+    },
+    {
+        "name": "Robert Baratheon",
+        "image": "robert_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/vFN0n-iK15w?si=IXQOSwwjXd4Hkpns",
+        "deadSeason": "1"
+    },
+    {
+        "name": "Stannis Baratheon",
+        "image": "stannish_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/BSPTD_jcybk?si=yVMhWqS0J_ysHOSe",
+        "deadSeason": "5"
+    },
+    {
+        "name": "Renly Baratheon",
+        "image": "renly_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/-sjsygV2DkA?si=5GiVY9S2IRdRccMi",
+        "deadSeason": "2"
+    },
+    {
+        "name": "Joffrey Baratheon",
+        "image": "joffrey_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/sm4patJGFLA?si=DHO34laI7QxXsFKc",
+        "deadSeason": "4"
+    },
+    {
+        "name": "Mirsella Baratheon",
+        "image": "mirsella_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/3r9f1VVFfeU?si=iQPnUN0Vdt-7PSRE",
+        "deadSeason": "5"
+    },
+    {
+        "name": "Tommen Baratheon",
+        "image": "tommen_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/-BUIFNCZVf0?si=t0Pe52TyoUyaR-AD",
+        "deadSeason": "6"
+    },
+    {
+        "name": "Shireen Baratheon",
+        "image": "shireen_baratheon.webp",
+        "muerte": "https://www.youtube.com/embed/vkEwciyMWM0?si=WsxBlpZP9QDHIL7U",
+        "deadSeason": "5"
+    },
+    {
+        "name": "Margery Tyrrel",
+        "image": "margery_tyrrel.webp",
+        "muerte": "https://www.youtube.com/embed/jXWx7rX0z7s?si=O_x9QhncUIAYYgPG",
+        "deadSeason": "6"
+    },
+    {
+        "name": "Olena Tyrrel",
+        "image": "olena_tyrrel.webp",
+        "muerte": "https://www.youtube.com/embed/fy7z5adL59E?si=3ISovAQwWi-pDh7e",
+        "deadSeason": "7"
+    },
+    {
+        "name": "Loras Tyrrel",
+        "image": "loras_tyrrel.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Lysa Arryn",
+        "image": "lysa_tully.webp",
+        "muerte": "https://www.youtube.com/embed/as3HWkxDD8Y?si=a6gN38Ua9MKSjH5C",
+        "deadSeason": "4"
+    },
+    {
+        "name": "Theon Greyjoy",
+        "image": "theon_greyjoy.webp",
+        "muerte": "https://www.youtube.com/embed/BuKlG1Vq7bc?si=AKGmairCyxa6Oejz",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Yara Greyjoy",
+        "image": "yara_greyjoy.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Oberyn Martell",
+        "image": "oberyn_martell.webp",
+        "muerte": "https://www.youtube.com/embed/QIPKB3e-KZw?si=9HGjVaUIqC0nOHvF",
+        "deadSeason": "4"
+    },
+    {
+        "name": "Sam Tarly",
+        "image": "sam_tarly.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Melisandre (Bruja Roja)",
+        "image": "bruja_roja.webp",
+        "muerte": "https://www.youtube.com/embed/G4MVgmH_9es?si=VfrhidzjW1tVj3QF",
+        "deadSeason": "8"
+    },
+    {
+        "name": "El Perro (Sandor Clegane)",
+        "image": "sandor_clegane.webp",
+        "muerte": "https://www.youtube.com/embed/nqL0XR6M_d0?si=_MQCChDelzJGA-l4",
+        "deadSeason": "8"
+    },
+    {
+        "name": "La Montaña (Ser Gregor Clegane)",
+        "image": "gregor_clegane.webp",
+        "muerte": "https://www.youtube.com/embed/nqL0XR6M_d0?si=_MQCChDelzJGA-l4",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Varys (La Araña)",
+        "image": "varys.webp",
+        "muerte": "https://www.youtube.com/embed/_ElaVOkuwic?si=Vl6GssPOY1BXo-6_",
+        "deadSeason": "8"
+    },
+    {
+        "name": "Hodor",
+        "image": "hodor.webp",
+        "muerte": "https://www.youtube.com/embed/BPm4OkJk23Q?si=1C5FoBTcHRpr_sZd",
+        "deadSeason": "6"
+    },
+    {
+        "name": "Tormund",
+        "image": "tormund.webp",
+        "muerte": "",
+        "deadSeason": ""
+    },
+    {
+        "name": "Ygritte",
+        "image": "ygritte.webp",
+        "muerte": "https://www.youtube.com/embed/UtffJ_Di7kw?si=tPivjIzmUWZbXnu_",
+        "deadSeason": "4"
+    },
+    {
+        "name": "Lord Baelish (Meñique)",
+        "image": "baelish.webp",
+        "muerte": "https://www.youtube.com/embed/sCfj897I_Kw?si=jV03fbxBc-8M_gge",
+        "deadSeason": "7"
+    },
+    {
+        "name": "Ramsay Bolton",
+        "image": "ramsay_bolton.webp",
+        "muerte": "https://www.youtube.com/embed/yHh6CnUG3BM?si=3hDYPfR-ZRSH7ViQ",
+        "deadSeason": "6"
+    }
+]

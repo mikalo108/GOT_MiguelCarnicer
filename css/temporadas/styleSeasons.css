@@ -1,0 +1,28 @@
+main{
+    text-align: center;
+    padding-inline: 50px;
+}
+.card{
+    background-color: rgba(94, 85, 85, 0.455)!important;
+    border-radius: 40px!important;
+}
+.card-img-top{
+    text-align: center;
+    scale: 0.85;
+}
+.card-body{
+    color: rgb(173, 176, 179) !important;
+}
+
+/* Muerto */
+.muerto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/eliminado.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}

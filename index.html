@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOT</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home/styleHome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header></header>
+    <nav>
+        <ul>
+            <li class="buttonNav" id="inicio"><a href="./index.html">home</a></li>
+            <li class="buttonNav"><a href="./temporada1.html">1<sup>st</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada2.html">2<sup>nd</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada3.html">3<sup>rd</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada4.html">4<sup>th</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada5.html">5<sup>th</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada6.html">6<sup>th</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada7.html">7<sup>th</sup> season</a></li>
+            <li class="buttonNav"><a href="./temporada8.html">8<sup>th</sup> season</a></li>
+        </ul>
+    </nav>
+    <aside></aside>
+    <main>
+        <section style="grid-row: 2/3; grid-column: 2/3; justify-self: center;">
+            <h1>Game of Thrones</h1>
+            <p>Game of Thrones es una serie de televisión de drama y fantasía creada para la HBO por David Benioff y D. B. Weiss. Es una adaptación de la saga de novelas de fantasía Canción de Hielo y Fuego de George R. R. Martin. La serie se estrenó en HBO en los Estados Unidos el 17 de abril de 2011 y concluyó el 19 de mayo de 2019 con un total de 73 episodios divididos en ocho temporadas.</p>
+        </section>
+        <img src="./assets/images/portada.webp" id="portada" height="400" alt="Imagen de Portada">
+    </main>
+    <aside id="right"></aside>
+    <footer></footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./code.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const img=document.getElementById("portada");
+        const main=document.querySelector("main");
+
+        img.addEventListener("dblclick",()=>{
+            let div=document.createElement("div");
+            div.classList.add("imagenGrande");
+            main.append(div);
+        })
+        main.addEventListener("click",()=>{
+            document.querySelector(".imagenGrande").remove();
+        })
+    })
+</script>
+</html>
