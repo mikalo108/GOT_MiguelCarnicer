@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const rutaIconoCerrar = "./assets/icons/x-lg.svg"; // Ubicación del icono de cerrar
-    const carpetaPersonajes = "./assets/images/personajes/"; // Ubicación de las imágenes de los personajes
-    const rutaPersonajesJSON = "./assets/json/personajes.json"; // Ubicación del JSON
+    const rutaIconoCerrar = "../assets/icons/x-lg.svg"; // Ubicación del icono de cerrar
+    const carpetaPersonajes = "../assets/images/personajes/"; // Ubicación de las imágenes de los personajes
+    const rutaPersonajesJSON = "../assets/json/personajes.json"; // Ubicación del JSON
 
     const main = document.querySelector("main"); // El elemento main, contenedor de los principales datos
     const thisSeason = document.URL.split("/").at(-1).split(".").at(0).at(-1); // La temporada actual
